@@ -136,10 +136,16 @@
 -----------
 
 
-<table style="undefined;table-layout: fixed; width: 909px">
-
+<table style="undefined;table-layout: fixed; width: 812px">
+<colgroup>
+<col style="width: 92.88889px">
+<col style="width: 148.88889px">
+<col style="width: 246.88889px">
+<col style="width: 323.77778px">
+</colgroup>
 <thead>
   <tr>
+    <th></th>
     <th>카테고리</th>
     <th>세부 카테고리</th>
     <th>데이터 설명</th>
@@ -150,70 +156,70 @@
     <td rowspan="16">스마트폰 사용 데이터</td>
     <td rowspan="5">사회적 상호 작용 데이터</td>
     <td>APP_USAGE_EVENT</td>
-    <td>모바일 앱 내 이벤트 발생 시간 및 유형 기록<br>(TYPE attribute : 앱 시작, 중단, 알림 등의 정보를 나타냄 )</td>
+    <td>모바일 앱 내 이벤트 발생 시간 및 유형 기록<br>- type : 앱 이벤트 타입, 앱 꺼짐, 켜짐 등의 정보를 나타냄. </td>
   </tr>
   <tr>
     <td>CALL_LOG</td>
-    <td></td>
+    <td>통화 기록<br>- type : 수신/발신 여부,  수신 거부 여부 등을 나타냄<br>- duration : 통화  시간</td>
   </tr>
   <tr>
     <td>DEVICE_EVENT</td>
-    <td></td>
+    <td>스마트 폰 기기 이벤트 발생<br>- type : 이벤트 유형, 스크린 켜짐/꺼짐(SCREEN_OFF/SCREEN_ON) 등의 정보</td>
   </tr>
   <tr>
     <td>MESSAGE</td>
-    <td></td>
+    <td>메세지 관련 정보<br>- type : 메세지가 발신/수신(SENT/INBOX) 여부 </td>
   </tr>
   <tr>
     <td>NOTIFICATION</td>
-    <td></td>
+    <td>어떤 종류의 알림(메세지, 전화, 에러 등)이 발생했는지 기록</td>
   </tr>
   <tr>
     <td rowspan="5">네트워크 및 기기 상태</td>
     <td>BATTERY</td>
-    <td></td>
+    <td>배터리 레벨 및 충전여부(DISCHARGING/CHARGING)</td>
   </tr>
   <tr>
-    <td>BLUTOOTH</td>
-    <td></td>
+    <td>BLUETOOTH</td>
+    <td>블루투스 연결여부(NONE, BONEDE) </td>
   </tr>
   <tr>
     <td>DATA TRAFFIC</td>
-    <td></td>
+    <td>데이터 트래픽 양(rxBytes 와 txBytes 단위로 나타냄)</td>
   </tr>
   <tr>
     <td>INSTALLED APP</td>
-    <td></td>
+    <td>설치된 앱 정보(id로 기록) </td>
   </tr>
   <tr>
     <td>WIFI</td>
-    <td></td>
+    <td>와이파이 연결되어 있을 경우 어떤 Access Point 에 접근했는지 정보</td>
   </tr>
   <tr>
     <td rowspan="2">키보드 및 미디어 데이터 </td>
     <td>KEY_LOG</td>
-    <td></td>
+    <td>키보드 사용 시 키보드 사용 정보(키보드 종류 등) 나타냄</td>
   </tr>
   <tr>
     <td>MEDIA</td>
-    <td></td>
+    <td>사진/동영상 다운로드 하였을 때, 관련 시간 및 미디어 파일 종류(gif, jpeg, png, mp4 등)를 나타냄</td>
   </tr>
   <tr>
     <td rowspan="4">활동 데이터</td>
     <td>FITNESS</td>
-    <td></td>
+    <td>사용자 걸음수, 이동 거리</td>
   </tr>
   <tr>
     <td>LOCATION</td>
-    <td></td>
+    <td>사용자 현재 위치의 위도, 경도, 고도, 속도 기록</td>
   </tr>
   <tr>
     <td>PHYSICAL_ACTIVITY</td>
-    <td></td>
+    <td>사용자액티비티 유형(뛰기, 걷기, 자전거 탑승 등) </td>
   </tr>
   <tr>
     <td>PHYSICAL_ACTIVITY_TRANLATION</td>
-    <td></td>
+    <td>사용자 액티비티 상태 변화를 기록(뛰기, 걷기, 자전거 탑승 등)</td>
   </tr>
 </tbody>
 </table>
