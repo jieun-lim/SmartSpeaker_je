@@ -156,11 +156,11 @@
     <td rowspan="16">스마트폰 사용 데이터</td>
     <td rowspan="5">사회적 상호 작용 데이터</td>
     <td>APP_USAGE_EVENT</td>
-    <td>모바일 앱 내 이벤트 발생 시간 및 유형 기록<br>- type : 앱 이벤트 타입, 앱 꺼짐, 켜짐 등의 정보를 나타냄. </td>
+    <td>모바일 앱 내 이벤트 발생 시간 및 유형 기록<br>- type : 앱 이벤트 타입(앱 꺼짐/켜짐 등)</td>
   </tr>
   <tr>
     <td>CALL_LOG</td>
-    <td>통화 기록<br>- type : 수신/발신 여부,  수신 거부 여부 등을 나타냄<br>- duration : 통화  시간</td>
+    <td>통화 기록<br>- type : 발신/수신 여부,  수신 거부 여부 등 <br>- duration : 통화  시간</td>
   </tr>
   <tr>
     <td>DEVICE_EVENT</td>
@@ -168,7 +168,7 @@
   </tr>
   <tr>
     <td>MESSAGE</td>
-    <td>메세지 관련 정보<br>- type : 메세지가 발신/수신(SENT/INBOX) 여부 </td>
+    <td>메세지 관련 정보<br>- type : 메세지 발신/수신(SENT/INBOX) 여부 </td>
   </tr>
   <tr>
     <td>NOTIFICATION</td>
@@ -181,7 +181,7 @@
   </tr>
   <tr>
     <td>BLUETOOTH</td>
-    <td>블루투스 연결여부(NONE, BONEDE) </td>
+    <td>블루투스 연결여부(NONE, BONDED) </td>
   </tr>
   <tr>
     <td>DATA TRAFFIC</td>
@@ -215,7 +215,7 @@
   </tr>
   <tr>
     <td>PHYSICAL_ACTIVITY</td>
-    <td>사용자액티비티 유형(뛰기, 걷기, 자전거 탑승 등) </td>
+    <td>사용자 액티비티 유형(뛰기, 걷기, 자전거 탑승 등) </td>
   </tr>
   <tr>
     <td>PHYSICAL_ACTIVITY_TRANLATION</td>
