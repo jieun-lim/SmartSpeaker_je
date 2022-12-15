@@ -136,119 +136,83 @@
 -----------
 
 
-<table style="undefined;table-layout: fixed; width: 930px">
-<colgroup>
-<col style="width: 117.88889px">
-<col style="width: 191.88889px">
-<col style="width: 173.88889px">
-<col style="width: 425.88889px">
-<col style="width: 20.88889px">
-</colgroup>
+<table style="undefined;table-layout: fixed; width: 909px">
+
 <thead>
   <tr>
-    <th></th>
     <th>카테고리</th>
     <th>세부 카테고리</th>
     <th>데이터 설명</th>
-    <th>설명 </th>
   </tr>
 </thead>
 <tbody>
   <tr>
     <td rowspan="16">스마트폰 사용 데이터</td>
-    <td>사회적 상호 작용 데이터</td>
+    <td rowspan="5">사회적 상호 작용 데이터</td>
     <td>APP_USAGE_EVENT</td>
-    <td>모바일 앱 내 이벤트 발생 기록<br>- sth</td>
-    <td></td>
+    <td>모바일 앱 내 이벤트 발생 시간 및 유형 기록<br>(TYPE attribute : 앱 시작, 중단, 알림 등의 정보를 나타냄 )</td>
   </tr>
   <tr>
-    <td></td>
     <td>CALL_LOG</td>
     <td></td>
-    <td></td>
   </tr>
   <tr>
-    <td></td>
     <td>DEVICE_EVENT</td>
     <td></td>
-    <td></td>
   </tr>
   <tr>
-    <td></td>
     <td>MESSAGE</td>
     <td></td>
-    <td></td>
   </tr>
   <tr>
-    <td></td>
     <td>NOTIFICATION</td>
     <td></td>
-    <td></td>
   </tr>
   <tr>
-    <td>네트워크 및 기기 상태</td>
+    <td rowspan="5">네트워크 및 기기 상태</td>
     <td>BATTERY</td>
     <td></td>
-    <td></td>
   </tr>
   <tr>
-    <td></td>
     <td>BLUTOOTH</td>
     <td></td>
-    <td></td>
   </tr>
   <tr>
-    <td></td>
     <td>DATA TRAFFIC</td>
     <td></td>
-    <td></td>
   </tr>
   <tr>
-    <td></td>
     <td>INSTALLED APP</td>
     <td></td>
-    <td></td>
   </tr>
   <tr>
-    <td></td>
     <td>WIFI</td>
     <td></td>
-    <td></td>
   </tr>
   <tr>
-    <td>키보드 및 미디어 데이터 </td>
+    <td rowspan="2">키보드 및 미디어 데이터 </td>
     <td>KEY_LOG</td>
     <td></td>
-    <td></td>
   </tr>
   <tr>
-    <td></td>
     <td>MEDIA</td>
     <td></td>
-    <td></td>
   </tr>
   <tr>
-    <td>활동 데이터</td>
+    <td rowspan="4">활동 데이터</td>
     <td>FITNESS</td>
     <td></td>
-    <td></td>
   </tr>
   <tr>
-    <td></td>
     <td>LOCATION</td>
     <td></td>
-    <td></td>
   </tr>
   <tr>
-    <td></td>
     <td>PHYSICAL_ACTIVITY</td>
     <td></td>
-    <td></td>
   </tr>
   <tr>
-    <td></td>
     <td>PHYSICAL_ACTIVITY_TRANLATION</td>
-    <td></td>
     <td></td>
   </tr>
 </tbody>
